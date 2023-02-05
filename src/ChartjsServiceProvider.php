@@ -24,7 +24,7 @@ class ChartjsServiceProvider extends ServiceProvider
         }
 
         Admin::booting(function () {
-            Admin::js('vendor/laravel-admin-ext/chartjs/Chart.bundle.min.js');
+            Admin::js('vendor/laravel-admin-ext/chartjs/chart-4.2.0.umd.js');
         });
     }
 }
